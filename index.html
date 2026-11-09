@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="container">
+            <div class="nav-logo">J<span>.</span>B</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button>→</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="section">
+        <div class="container hero-inner">
+            <div class="hero-tag">JULIUS BEKOE</div>
+            <h1>
+                Cloud-Architect<br>
+                <em>Engineer.</em>
+            </h1>
+
+            <!-- <p class="hero-desc">
+                I build clean, dynamic web experiences — from thoughtful interfaces to robust back-end systems.
+            </p> -->
+
+            <ul class="hero-tag">
+                <li>Front-End Development |</li>
+                <li>Back-End Development |</li>
+                <li>Cloud Engineering</li>
+            </ul>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work →</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-label">About</div>
+            <h2>A Cloud Enthusiast.</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I design, build and maintain cloud infrastructure that is scalable, with hands-on experience
+                        with AWS, I contribute with teams move from fragile setups to resilient, automated systems. My
+                        focus is on reliability, security and cost-efficiency so your Applications stay up and bill
+                        stays within budget.
+                        <hr>
+                    </p>
+                    <p>
+                        I care deeply about the fundamentals. Before reaching for a framework, I want to understand
+                        exactly what's happening under the hood. This portfolio is built that way: pure HTML and CSS, no
+                        shortcuts.
+                        <hr>
+                    </p>
+                    <p>
+                        When I'm not coding, I'm reading about design systems, experimenting with layouts, or thinking
+                        about how small UI decisions affect the user experience.
+                    </p>
+
+                    <div class="about-tech">
+                        <h2>Technologies.</h2>
+                        <ul class="tech-badges">
+                            <li>AWS</li>
+                            <li>Python</li>
+                            <li>Docker</li>
+                            <li>Git/Github</li>
+                            <li>VS-Code</li>
+                            <li>Ai</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="about-pic">
+                    <img src="files/self.jpg" alt="description">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section">
+        <div class="container">
+            <div class="section-label">Resume</div>
+            <h2>Background & education.</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-period">2022 — 2026</div>
+                    <div class="timeline-role">BEng. Computer Engineering</div>
+                    <div class="timeline-company">Accra Institution of Technology</div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-period">2026 — Present</div>
+                    <div class="timeline-role">Cert. Cloud Computing</div>
+                    <div class="timeline-company">Thrive Africa</div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-period">20XX — 20XX</div>
+                    <div class="timeline-role">Your Role or Experience</div>
+                    <div class="timeline-company">Company / Organisation</div>
+                    <p class="timeline-desc">A brief description of responsibilities and achievements. Use action verbs
+                        and keep it concise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-label">Projects</div>
+            <h2>Some of my work.</h2>
+            <p>Here are a few projects I've worked on recently. <a href="#contact">Email me.</a></p>
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="files/hand.jpg" alt="Hand interacting with technology">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="files/code.jpg" alt="Code on a screen">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="files/ai.jpg" alt="Artificial intelligence artwork">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <button class="prev" type="button" aria-label="Previous slide" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" type="button" aria-label="Next slide" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+
+        <!-- The dots/circles -->
+        <div class="slideshow-dots" aria-label="Choose a slide">
+        <button class="dot" type="button" aria-label="Show slide 1" onclick="currentSlide(1)"></button>
+        <button class="dot" type="button" aria-label="Show slide 2" onclick="currentSlide(2)"></button>
+        <button class="dot" type="button" aria-label="Show slide 3" onclick="currentSlide(3)"></button>
+        </div>
+    </section>
+    
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-label">Contact</div>
+            <div class="contact-inner">
+                <div class="contact-text">
+                    <h2>Let's work together.</h2>
+                    <p>I'm currently open to new opportunities — freelance projects, internships or entry-level roles.
+                        If you have a project in mind or just want to say hi, my inbox is open.</p>
+                    <a href="mailto:hello@yourdomain.com" class="btn btn-primary">Send an Email →</a>
+                </div>
+                <div class="contact-links">
+                    <a href="#" class="contact-link-row">
+                        <div>
+                            <div class="cl-platform">GitHub</div>
+                            <div class="cl-label">github.com/yourhandle</div>
+                        </div>
+                        <span class="cl-arrow">↗</span>
+                    </a>
+                    <a href="#" class="contact-link-row">
+                        <div>
+                            <div class="cl-platform">LinkedIn</div>
+                            <div class="cl-label">linkedin.com/in/yourname</div>
+                        </div>
+                        <span class="cl-arrow">↗</span>
+                    </a>
+                    <a href="#" class="contact-link-row">
+                        <div>
+                            <div class="cl-platform">Twitter / X</div>
+                            <div class="cl-label">@yourhandle</div>
+                        </div>
+                        <span class="cl-arrow">↗</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p class="footer-copy">© 2026 — Built with <span>♥</span></p>
+            <p class="footer-copy" style="color: var(--muted);">Designed & developed by You</p>
+        </div>
+    </footer>
+    <script>
+        let slideIndex = 1;
+
+        function plusSlides(step) {
+            showSlides(slideIndex += step);
+        }
+
+        function currentSlide(index) {
+            showSlides(slideIndex = index);
+        }
+
+        function showSlides(index) {
+            const slides = document.querySelectorAll('.mySlides');
+            const dots = document.querySelectorAll('.slideshow-dots .dot');
+
+            if (index > slides.length) slideIndex = 1;
+            if (index < 1) slideIndex = slides.length;
+
+            slides.forEach((slide, position) => {
+                slide.style.display = position === slideIndex - 1 ? 'block' : 'none';
+            });
+            dots.forEach((dot, position) => {
+                dot.classList.toggle('active', position === slideIndex - 1);
+            });
+        }
+
+        showSlides(slideIndex);
+    </script>
+</body>
+
+</html>

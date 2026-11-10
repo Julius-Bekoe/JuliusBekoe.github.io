@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Julius Bekoe Portfolio Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
@@ -21,7 +23,6 @@
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><button>→</button></li>
             </ul>
         </div>
     </nav>
@@ -29,10 +30,10 @@
     <!-- HERO -->
     <section id="hero" class="section">
         <div class="container hero-inner">
-            <div class="hero-tag">JULIUS BEKOE</div>
+            <div class="hero-tag">HELLO<i class="fi fi-ts-hand-wave"></i> I AM</div>
             <h1>
-                Cloud-Architect<br>
-                <em>Engineer.</em>
+                <span class="hero-title-line hero-title-line--first">JULIUS BEKOE</span>
+                <em class="hero-title-line hero-title-line--second">Devops Engineer.</em>
             </h1>
 
             <!-- <p class="hero-desc">
@@ -55,11 +56,11 @@
     <section id="about" class="section">
         <div class="container">
             <div class="section-label">About</div>
-            <h2>A Cloud Enthusiast.</h2>
+            <h2>Fun facts about me.</h2>
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        I design, build and maintain cloud infrastructure that is scalable, with hands-on experience
+                        I design, build and maintain software applications and cloud infrastructure that is scalable, with hands-on experience
                         with AWS, I contribute with teams move from fragile setups to resilient, automated systems. My
                         focus is on reliability, security and cost-efficiency so your Applications stay up and bill
                         stays within budget.
@@ -67,28 +68,15 @@
                     </p>
                     <p>
                         I care deeply about the fundamentals. Before reaching for a framework, I want to understand
-                        exactly what's happening under the hood. This portfolio is built that way: pure HTML and CSS, no
-                        shortcuts.
+                        exactly what's happening under the hood. I also leverage Ai tools to build smarter and enhance agility. This portfolio is built that way!
                         <hr>
                     </p>
                     <p>
-                        When I'm not coding, I'm reading about design systems, experimenting with layouts, or thinking
-                        about how small UI decisions affect the user experience.
+                        When I'm not coding, I'm researching on system designs, problem gaps and ideas where my expertise can provide solutions and experimenting with layouts.
+                        I enjoy reading books, listening to musics, watching movies, playing games with friends and going out for walks and occasional hangouts.
                     </p>
-
-                    <div class="about-tech">
-                        <h2>Technologies.</h2>
-                        <ul class="tech-badges">
-                            <li>AWS</li>
-                            <li>Python</li>
-                            <li>Docker</li>
-                            <li>Git/Github</li>
-                            <li>VS-Code</li>
-                            <li>Ai</li>
-                        </ul>
-                    </div>
-
                 </div>
+
                 <div class="about-pic">
                     <img src="files/self.jpg" alt="description">
                 </div>
@@ -127,6 +115,19 @@
                         and keep it concise.</p>
                 </div>
             </div>
+
+            <div class="about-tech">
+                        <h2>Technologies</h2>
+                        <ul class="tech-badges">
+                            <li>AWS</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Docker</li>
+                            <li>Git/Github</li>
+                            <li>VS-Code</li>
+                            <li>Ai Tools</li>
+                        </ul>
+                    </div>
         </div>
     </section>
 
@@ -136,7 +137,7 @@
         <div class="container">
             <div class="section-label">Projects</div>
             <h2>Some of my work.</h2>
-            <p>Here are a few projects I've worked on recently. <a href="#contact">Email me.</a></p>
+            <p>Here are a few projects I've worked on recently. <a href="#contact">Get in touch!</a> let's colaborate on professional works, awesone ideas and fun projects.</p>
         </div>
 
         <!-- Slideshow container -->
@@ -184,29 +185,32 @@
                     <h2>Let's work together.</h2>
                     <p>I'm currently open to new opportunities — freelance projects, internships or entry-level roles.
                         If you have a project in mind or just want to say hi, my inbox is open.</p>
-                    <a href="mailto:hello@yourdomain.com" class="btn btn-primary">Send an Email →</a>
+                    <a href="mailto:bekoejulius9@gmail.com" class="btn btn-primary">Send an Email →</a>
                 </div>
-                <div class="contact-links">
-                    <a href="#" class="contact-link-row">
-                        <div>
-                            <div class="cl-platform">GitHub</div>
-                            <div class="cl-label">github.com/yourhandle</div>
-                        </div>
-                        <span class="cl-arrow">↗</span>
+                <div class="contact-links" aria-label="Social media links">
+                    <a href="#" class="contact-icon" aria-label="GitHub" title="GitHub">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="#" class="contact-link-row">
-                        <div>
-                            <div class="cl-platform">LinkedIn</div>
-                            <div class="cl-label">linkedin.com/in/yourname</div>
-                        </div>
-                        <span class="cl-arrow">↗</span>
+                    <a href="#" class="contact-icon" aria-label="LinkedIn" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
                     </a>
-                    <a href="#" class="contact-link-row">
-                        <div>
-                            <div class="cl-platform">Twitter / X</div>
-                            <div class="cl-label">@yourhandle</div>
-                        </div>
-                        <span class="cl-arrow">↗</span>
+                    <a href="#" class="contact-icon" aria-label="WhatsApp" title="WhatsApp">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="contact-icon" aria-label="X" title="X">
+                        <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="contact-icon" aria-label="Discord" title="Discord">
+                        <i class="fa-brands fa-discord" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="contact-icon" aria-label="Instagram" title="Instagram">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="contact-icon" aria-label="Snapchat" title="Snapchat">
+                        <i class="fa-brands fa-snapchat" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="contact-icon" aria-label="TikTok" title="TikTok">
+                        <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -217,9 +221,24 @@
     <footer>
         <div class="container">
             <p class="footer-copy">© 2026 — Built with <span>♥</span></p>
-            <p class="footer-copy" style="color: var(--muted);">Designed & developed by You</p>
+            <p class="footer-copy" style="color: var(--muted);">Designed & developed by JB</p>
         </div>
     </footer>
+    <details class="download-widget">
+        <summary class="download-toggle" aria-label="Open resume and cover letter downloads" title="Download documents">
+            <i class="fi fi-ts-download" aria-hidden="true"></i>
+        </summary>
+        <div class="download-menu" aria-label="Document downloads">
+            <a href="files/resume.pdf" download="Julius-Bekoe-Resume.pdf">
+                <span>Resume</span>
+                <span class="download-format">PDF</span>
+            </a>
+            <a href="files/cover-letter.pdf" download="Julius-Bekoe-Cover-Letter.pdf">
+                <span>Cover letter</span>
+                <span class="download-format">PDF</span>
+            </a>
+        </div>
+    </details>
     <script>
         let slideIndex = 1;
 

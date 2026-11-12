@@ -89,45 +89,84 @@
     <section id="resume" class="section">
         <div class="container">
             <div class="section-label">Resume</div>
-            <h2>Background & education.</h2>
-            <div class="timeline">
+            <h2>Background</h2>
+            <div class="resume-layout">
+                <div class="resume-column resume-left">
+                    <section class="resume-block" aria-labelledby="education-title">
+                        <h3 id="education-title">Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-period">2022 — 2026</div>
+                                <div class="timeline-role">BEng. Computer Engineering</div>
+                                <div class="timeline-company">Accra Institution of Technology</div>
+                            </div>
+                        </div>
+                    </section>
 
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-period">2022 — 2026</div>
-                    <div class="timeline-role">BEng. Computer Engineering</div>
-                    <div class="timeline-company">Accra Institution of Technology</div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-period">2026 — Present</div>
-                    <div class="timeline-role">Cert. Cloud Computing</div>
-                    <div class="timeline-company">Thrive Africa</div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-period">20XX — 20XX</div>
-                    <div class="timeline-role">Your Role or Experience</div>
-                    <div class="timeline-company">Company / Organisation</div>
-                    <p class="timeline-desc">A brief description of responsibilities and achievements. Use action verbs
-                        and keep it concise.</p>
-                </div>
-            </div>
-
-            <div class="about-tech">
-                        <h2>Technologies</h2>
-                        <ul class="tech-badges">
-                            <li>AWS</li>
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>Docker</li>
-                            <li>Git/Github</li>
-                            <li>VS-Code</li>
-                            <li>Ai Tools</li>
+                    <section class="resume-block" aria-labelledby="skills-title">
+                        <h3 id="skills-title">Skills</h3>
+                        <ul class="resume-skills">
+                            <li>Cloud engineering</li>
+                            <li>Front-end development</li>
+                            <li>Back-end development</li>
+                            <li>Infrastructure reliability</li>
+                            <li>Security and cost optimization</li>
                         </ul>
+                    </section>
+                </div>
+
+                <section class="resume-column resume-certifications" aria-labelledby="certifications-title">
+                    <div class="resume-block-heading">
+                        <h3 id="certifications-title">Certifications</h3>
+                        <div class="cert-nav" aria-label="Certification navigation">
+                            <button class="cert-nav-button" type="button" data-cert-step="-1" aria-label="Previous certification">
+                                <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+                            </button>
+                            <button class="cert-nav-button" type="button" data-cert-step="1" aria-label="Next certification">
+                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
                     </div>
+                    <div class="cert-card-stack" aria-live="polite">
+                        <article class="cert-card" data-cert-card data-cert-title="Cloud Computing" data-cert-organization="Thrive Africa">
+                            <div class="cert-card-media" role="img" aria-label="Cloud Computing certificate image placeholder">
+                                <img src="files/CC Cert .png" alt="CC certificate image for Julius Bekoe">
+                            </div>
+                        </article>
+                        <article class="cert-card" data-cert-card data-cert-title="Ai Career Essentials" data-cert-organization="Alx" hidden>
+                            <div class="cert-card-media" role="img" aria-label="Certificate image placeholder">
+                                <img src="files/66-alx-aice-ai-career-essentials-certificate-julius-bekoe.png" alt="Aice certificate image for Julius Bekoe">
+                            </div>
+                        </article>
+                        <article class="cert-card" data-cert-card data-cert-title="Virtual Assistant" data-cert-organization="Alx" hidden>
+                            <div class="cert-card-media" role="img" aria-label="Certificate image placeholder">
+                                <img src="files/72-virtual-assistant-certificate-julius-bekoe.png" alt="VA certificate image for Julius Bekoe">
+                            </div>
+                        </article>
+                        <div class="cert-card-caption">
+                            <div class="cert-card-details">
+                                <h4 class="cert-card-title">Cloud Computing</h4>
+                                <p class="cert-card-organization">Thrive Africa</p>
+                            </div>
+                            <p class="cert-card-count" aria-label="Certification 1 of 3">01 <span>/</span> 03</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="resume-tech" aria-labelledby="technologies-title">
+                    <h3 id="technologies-title">Technologies</h3>
+                    <ul class="tech-badges">
+                        <li>AWS</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Docker</li>
+                        <li>Git/GitHub</li>
+                        <li>VS Code</li>
+                        <li>AI tools</li>
+                    </ul>
+                </section>
+            </div>
         </div>
     </section>
 
@@ -197,9 +236,9 @@
                     <a href="https://wa.me/0506994570" class="contact-icon" aria-label="WhatsApp" title="WhatsApp">
                         <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
                     </a>
-                    <a href="https://x.com/JuliusBekoe" class="contact-icon" aria-label="X" title="X">
+                    <!-- <a href="https://x.com/queci_iyce?s=11" class="contact-icon" aria-label="X" title="X">
                         <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-                    </a>
+                    </a> -->
                     <a href="https://snapchat.com/t/Nrydh2e1" class="contact-icon" aria-label="Snapchat" title="Snapchat">
                         <i class="fa-brands fa-snapchat" aria-hidden="true"></i>
                     </a>
@@ -260,6 +299,31 @@
         }
 
         showSlides(slideIndex);
+
+        const certificationCards = document.querySelectorAll('[data-cert-card]');
+        const certificationCount = document.querySelector('.cert-card-count');
+        const certificationTitle = document.querySelector('.cert-card-title');
+        const certificationOrganization = document.querySelector('.cert-card-organization');
+        let certificationIndex = 0;
+
+        function showCertification(index) {
+            certificationIndex = (index + certificationCards.length) % certificationCards.length;
+            certificationCards.forEach((card, position) => {
+                card.hidden = position !== certificationIndex;
+            });
+            const current = String(certificationIndex + 1).padStart(2, '0');
+            const total = String(certificationCards.length).padStart(2, '0');
+            certificationCount.innerHTML = `${current} <span>/</span> ${total}`;
+            certificationCount.setAttribute('aria-label', `Certification ${certificationIndex + 1} of ${certificationCards.length}`);
+            certificationTitle.textContent = certificationCards[certificationIndex].dataset.certTitle;
+            certificationOrganization.textContent = certificationCards[certificationIndex].dataset.certOrganization;
+        }
+
+        document.querySelectorAll('[data-cert-step]').forEach((button) => {
+            button.addEventListener('click', () => {
+                showCertification(certificationIndex + Number(button.dataset.certStep));
+            });
+        });
     </script>
 </body>
 
